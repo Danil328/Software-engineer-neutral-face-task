@@ -28,7 +28,7 @@ https://drive.google.com/file/d/1JcJGUX8NOkZvCUyxinxtkn4qjGD-DgQF/view?usp=shari
 
 Сеть обучалась на датасете http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
-В файле annotation.txt присутствует метка только для "Smile", для получения "open_mouth" было размечено около 4-х тысяч изображений.
+В файле Annotation присутствует метка только для "Smile", для получения "open_mouth" было размечено около 4-х тысяч изображений.
 
 В качестве оценки алгоритма использовалась F-мера, так как в тестовом датасете наблюдается дисбаланс классов.
 
