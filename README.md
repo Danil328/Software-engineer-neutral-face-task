@@ -24,8 +24,15 @@
 https://drive.google.com/file/d/1JcJGUX8NOkZvCUyxinxtkn4qjGD-DgQF/view?usp=sharing
 (пароль к архиву "Iephohn9" без кавычек).
 
-## Solution without landmark
+## Clone repository
 
     git clone https://gitlab.com/Danil328/software-engineer-neutral-face-task.git
+
+## Install requirements
+
+    pip3 install -r requirements.txt
+
+## Solution without landmark
+
     cd Solution without landmarks
     python main.py "path_to_images" "path_to_submission"
