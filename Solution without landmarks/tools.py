@@ -1,8 +1,9 @@
 import dlib
 from mtcnn.mtcnn import MTCNN
 import cv2 as cv
+import numpy as np
 
-face_cascade = cv.CascadeClassifier('/media/danil/Data/Kaggle/airbus-ship-detection/venv/lib/python3.5/site-packages/cv2/data/haarcascade_frontalface_default.xml')
+face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 def cascadeHaar(img):
     img = np.array(img, dtype=np.uint8)
     faces = face_cascade.detectMultiScale(img, 1.3, 5)

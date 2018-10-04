@@ -48,6 +48,6 @@ if __name__ == '__main__':
     model = get_model(load_weights())
 
     test_filelist = glob.glob(os.path.join(path_test, '*.jpg'))
-    
+
     predict(model, test_filelist)
 
