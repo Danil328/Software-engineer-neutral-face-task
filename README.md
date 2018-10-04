@@ -24,6 +24,17 @@
 https://drive.google.com/file/d/1JcJGUX8NOkZvCUyxinxtkn4qjGD-DgQF/view?usp=sharing
 (пароль к архиву "Iephohn9" без кавычек).
 
+Так как решение должно быть ориентировано на работу в мобильных устройствах, была выбрана сеть NASNetMobile.
+Сеть обучалась на датасете http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+В файле annotation.txt присутствует метка только для "Smile", для получения "open_mouth" было размечено около 4-х тысяч изображений.
+
+В качестве оценки алгоритма использовалась F-мера, так как в тестовом датасете наблюдается дисбаланс классов.
+
+### Scores
+
+    Validation score in CelebA: f1_smile - 0.9612, f1_open_mouth - 0.9675
+    Test score in "example_data" - f1_smile - 0.5579, f1_open_mouth - 0.3892
+    
 ## Clone repository
 
     git clone https://gitlab.com/Danil328/software-engineer-neutral-face-task.git
