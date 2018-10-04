@@ -1,6 +1,6 @@
-Классификатор нейтрального лица
+# Классификатор нейтрального лица
 
-Ваша задача - написать классификатор нейтрального лица, с упором на его дальнейшее использование в мобильном приложении в real-time. Предлагается в качестве базового варианта опираться на стандартную разметку 68 ключевых точек, которая использовалась в MULTI-PIE.
+Задача - написать классификатор нейтрального лица, с упором на его дальнейшее использование в мобильном приложении в real-time. Предлагается в качестве базового варианта опираться на стандартную разметку 68 ключевых точек, которая использовалась в MULTI-PIE.
 В рамках этого задания мы будем считать, что данная задача разбивается на две:
 Детектор открытого рта
 Детектор улыбки
@@ -23,3 +23,16 @@
 Примеры фотографий можно найти здесь 
 https://drive.google.com/file/d/1JcJGUX8NOkZvCUyxinxtkn4qjGD-DgQF/view?usp=sharing
 (пароль к архиву "Iephohn9" без кавычек).
+
+## Clone repository
+
+    git clone https://gitlab.com/Danil328/software-engineer-neutral-face-task.git
+
+## Install requirements
+
+    pip3 install -r requirements.txt
+
+## Solution without landmark
+
+    cd Solution without landmarks
+    python main.py "path_to_images" "path_to_submission"
