@@ -9,3 +9,4 @@ urllib3==1.23
 cv2
 mtcnn
 dlib
+imutils
