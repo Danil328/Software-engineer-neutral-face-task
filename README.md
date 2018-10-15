@@ -44,7 +44,7 @@ https://drive.google.com/file/d/1JcJGUX8NOkZvCUyxinxtkn4qjGD-DgQF/view?usp=shari
     
 ## Clone repository
 
-    git clone https://gitlab.com/Danil328/software-engineer-neutral-face-task.git
+    git clone https://github.com/Danil328/Software-engineer-neutral-face-task.git
 
 ## Install requirements
 
